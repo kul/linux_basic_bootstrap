@@ -187,6 +187,6 @@ nnoremap \ :Ag<SPACE>
 nnoremap <Leader>go :Google "<C-R><C-W>"<CR>
 
 " Gvim
-" if has("gui_running")
-"   set guifont=Hermit\ Bold\ 12
-" endif
+if has("gui_running")
+  set guifont=Hermit\ Bold\ 12
+endif
