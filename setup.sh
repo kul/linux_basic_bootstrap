@@ -42,6 +42,7 @@ fi
 
 ## vim setup
 if [ ! -d ~/.vim/bundle/vundle ]; then
+  sudo apt-get install vim-gtk
   mkdir -p ~/.vim/tmp
   git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/vundle
   vim +PluginInstall +qall
